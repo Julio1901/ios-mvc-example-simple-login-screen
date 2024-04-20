@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		F44A21572BD33F0400A2A1F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A21562BD33F0400A2A1F2 /* AppDelegate.swift */; };
 		F44A21592BD33F0400A2A1F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A21582BD33F0400A2A1F2 /* SceneDelegate.swift */; };
-		F44A215B2BD33F0400A2A1F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A215A2BD33F0400A2A1F2 /* ViewController.swift */; };
+		F44A215B2BD33F0400A2A1F2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A215A2BD33F0400A2A1F2 /* LoginViewController.swift */; };
 		F44A215E2BD33F0400A2A1F2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F44A215D2BD33F0400A2A1F2 /* Base */; };
 		F44A21602BD33F0600A2A1F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44A215F2BD33F0600A2A1F2 /* Assets.xcassets */; };
 		F44A21632BD33F0600A2A1F2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F44A21622BD33F0600A2A1F2 /* Base */; };
 		F44A216E2BD33F0600A2A1F2 /* MVCSimpleStudyExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A216D2BD33F0600A2A1F2 /* MVCSimpleStudyExampleTests.swift */; };
 		F44A21782BD33F0600A2A1F2 /* MVCSimpleStudyExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A21772BD33F0600A2A1F2 /* MVCSimpleStudyExampleUITests.swift */; };
 		F44A217A2BD33F0600A2A1F2 /* MVCSimpleStudyExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A21792BD33F0600A2A1F2 /* MVCSimpleStudyExampleUITestsLaunchTests.swift */; };
+		F44A218D2BD35A9700A2A1F2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A218C2BD35A9700A2A1F2 /* HomeViewController.swift */; };
+		F44A218F2BD35ED500A2A1F2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A218E2BD35ED500A2A1F2 /* User.swift */; };
+		F44A21912BD3632900A2A1F2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A21902BD3632900A2A1F2 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		F44A21532BD33F0400A2A1F2 /* MVCSimpleStudyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCSimpleStudyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44A21562BD33F0400A2A1F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F44A21582BD33F0400A2A1F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F44A215A2BD33F0400A2A1F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F44A215A2BD33F0400A2A1F2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F44A215D2BD33F0400A2A1F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F44A215F2BD33F0600A2A1F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F44A21622BD33F0600A2A1F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,10 @@
 		F44A21732BD33F0600A2A1F2 /* MVCSimpleStudyExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVCSimpleStudyExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44A21772BD33F0600A2A1F2 /* MVCSimpleStudyExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCSimpleStudyExampleUITests.swift; sourceTree = "<group>"; };
 		F44A21792BD33F0600A2A1F2 /* MVCSimpleStudyExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCSimpleStudyExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F44A218C2BD35A9700A2A1F2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F44A218E2BD35ED500A2A1F2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F44A21902BD3632900A2A1F2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F44A21922BD377BD00A2A1F2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +86,7 @@
 		F44A214A2BD33F0400A2A1F2 = {
 			isa = PBXGroup;
 			children = (
+				F44A21922BD377BD00A2A1F2 /* README.md */,
 				F44A21552BD33F0400A2A1F2 /* MVCSimpleStudyExample */,
 				F44A216C2BD33F0600A2A1F2 /* MVCSimpleStudyExampleTests */,
 				F44A21762BD33F0600A2A1F2 /* MVCSimpleStudyExampleUITests */,
@@ -101,7 +109,10 @@
 			children = (
 				F44A21562BD33F0400A2A1F2 /* AppDelegate.swift */,
 				F44A21582BD33F0400A2A1F2 /* SceneDelegate.swift */,
-				F44A215A2BD33F0400A2A1F2 /* ViewController.swift */,
+				F44A218E2BD35ED500A2A1F2 /* User.swift */,
+				F44A21902BD3632900A2A1F2 /* NetworkService.swift */,
+				F44A218C2BD35A9700A2A1F2 /* HomeViewController.swift */,
+				F44A215A2BD33F0400A2A1F2 /* LoginViewController.swift */,
 				F44A215C2BD33F0400A2A1F2 /* Main.storyboard */,
 				F44A215F2BD33F0600A2A1F2 /* Assets.xcassets */,
 				F44A21612BD33F0600A2A1F2 /* LaunchScreen.storyboard */,
@@ -258,9 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F44A215B2BD33F0400A2A1F2 /* ViewController.swift in Sources */,
+				F44A215B2BD33F0400A2A1F2 /* LoginViewController.swift in Sources */,
 				F44A21572BD33F0400A2A1F2 /* AppDelegate.swift in Sources */,
 				F44A21592BD33F0400A2A1F2 /* SceneDelegate.swift in Sources */,
+				F44A218F2BD35ED500A2A1F2 /* User.swift in Sources */,
+				F44A21912BD3632900A2A1F2 /* NetworkService.swift in Sources */,
+				F44A218D2BD35A9700A2A1F2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
