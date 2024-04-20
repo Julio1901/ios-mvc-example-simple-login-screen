@@ -19,12 +19,17 @@ To run the project on your local environment, follow the instructions below:
    ```bash
    git clone https://github.com/Julio1901/ios-mvc-example-simple-login-screen.git
 
-2. Open the ProjectName.xcodeproj file in Xcode.
+2. Open the MVCSimpleStudyExample.xcodeproj file in Xcode.
 
 3. Select the desired device or simulator and click on the run button.
 
 4. Use the following credentials to log in:
-    . Email: test@test.com
-    . Password: password
+   - Email: test@test.com
+   - Password: password
 
 5. Explore the app to see the implementation of the MVC architecture.
+
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
